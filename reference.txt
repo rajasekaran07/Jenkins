@@ -1,0 +1,12 @@
+10.172.112.37
+jenkins
+jenkins!007
+http://10.172.112.37:8080/ 
+admin
+866471f47f874abd8a8d5172480b8f6e
+
+Installation
+wget -q -O - https://pkg.jenkins.io/debian/jenkins-ci.org.key | sudo apt-key add -
+sudo sh -c 'echo deb http://pkg.jenkins.io/debian-stable binary/ > /etc/apt/sources.list.d/jenkins.list'
+sudo apt-get update
+sudo apt-get install jenkins
